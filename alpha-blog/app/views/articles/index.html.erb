@@ -1,0 +1,5 @@
+<ul>
+  <% @article.each do |article| %>
+    <li><%= article.title %> <%= link_to "Show", article %></li>
+  <% end %>
+</ul>
